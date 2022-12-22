@@ -5,6 +5,7 @@ DT_LINK="https://github.com/Nubuki-all/recovery_device_tecno_KD7 -b pbrp"
 DT_PATH=device/$MAKE/$DEVICE
 
 echo " ===+++ Setting up Build Environment +++==="
+sh swap 30G
 apt install openssh-server -y
 apt update --fix-missing
 apt install openssh-server -y
