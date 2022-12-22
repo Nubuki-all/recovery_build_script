@@ -26,6 +26,7 @@ echo " lunch omni_${DEVICE}-eng done"
 #mka recoveryimage || abort " mka failed with exit status $?"
 mka pbrp
 echo " mka recoveryimage done"
+#fingers crossed 
 
 # Upload zips & recovery.img (U can improvise lateron adding telegram support etc etc)
 echo " ===+++ Uploading Recovery +++==="
