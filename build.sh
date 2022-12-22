@@ -18,6 +18,7 @@ git clone --depth=1 $DT_LINK $DT_PATH
 
 echo " ===+++ Building Recovery +++==="
 export ALLOW_MISSING_DEPENDENCIES=true
+export BUILD_BROKEN_DUP_RULES=true
 . build/envsetup.sh
 echo " source build/envsetup.sh done"
 lunch omni_${DEVICE}-eng || abort " lunch failed with exit status $?"
